@@ -1,5 +1,5 @@
 # **Modernising my Javascript**
-### **DataTypes - Adat Típusok**
+## **DataTypes - Adat Típusok**
 - string pl.: Jani
 - number pl.: 3;  34.1
 - object pl.: {nev: Jani; hazszam: 32}
@@ -110,6 +110,29 @@
 `Math.floor(Math.random() * 10) + 1`
 
 **Random számok generálásánál mindig a floor metódust használjuk mert a ceil metódusnak van egy csekély esélye, hogy 0-t adjon vissza.**
+
+# **Conditionals**
+*(If_Switch_Ternary mappában)*
+## **if Statements**
+
+*Syntax:*  
+`if(condition){`  
+*Ha a condition true, akkor lefut a kód, ha false, akkor átugorja az if-et.*  
+`}`  
+  
+pl.:  
+`if (randomNumber > 50) {`  
+`console.log("A szám nagyobb mint 50")`      
+`}else if(randomNumber < 50){`  
+`    console.log("A szám kisebb mint 50")`  
+`}`  
+*Ha a randomNumber nagyobb mint 50, akkor abban a brackets-ben lévő console.logot futtatja le, ha kisebb, akkor pedig azt.*  
+
+## **switch Statements**
+
+
+
+
 
 
 
