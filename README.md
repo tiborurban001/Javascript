@@ -20,8 +20,6 @@
 
 `alert('Hello World')` *Az alert() metódus egy felugró ablakot hív nekünk elő;*
 
-*+------------------------------------------------------------------------------+*
-
 ## **String**  
 *(String mappa)*
 
@@ -51,10 +49,37 @@
 
 *A split() metódus kettéválasztja a stringet egy array-be, a megadott paraméternek megfelelő karakternél*  
 `myVar.split("o")`  
-`myVar.split("")` *így pedig minden karaktert különszed*
-
-*+------------------------------------------------------------------------------+*
+`myVar.split("")` *így pedig minden karaktert *különszed*  
+  
+  
 ## **Number**  
-*(Number mappa)*
+*(Number mappa)*  
+
+*Átalakíthatunk string-ben megadott számokat number típusú adattá:*  
+`const myStringNumber = 10`  
+`console.log(Number(myStringNumber))`
+*-A Number() metódussal*
+
+**Number metódusai**
+
+*Eldönti hogy a metódusban megadott paraméter integer-e*  
+`Number.isInteger(myNumber)`
+
+*Float-á alakítja a paraméterben megadott(argument) adatot*  
+`Number.parseFloat(myNumber)`  
+
+*Szabályozza mennyi szám jelenik meg a tizedes pont után, de stringben adja vissza*  
+`myFloat.toFixed(2)`
+
+*A parseInt() metódus integer-t csinál a paraméterből*  
+`Number.parseInt(myFloat)`
+
+*Stringgé alakít*  
+`myFloat.toString()`
+
+
+
+
+
 
   
