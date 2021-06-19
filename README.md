@@ -77,6 +77,42 @@
 *Stringgé alakít*  
 `myFloat.toString()`
 
+## **Math**  
+*(Maths mappa)*  
+
+*Pi értéke*  
+`Math.Pi`
+
+*Integerré alakít(leveszi a tizedes utáni számokat)*  
+`Math.trunc(Math.Pi)`
+
+*Integerre kerekít*  
+`Math.round()`
+
+*A magasabb integerre kerekít pl.: 3.121 -> 4*  
+`Math.ceil(3.121)`
+
+*A lenti integerre kerekít pl.: 3.121 -> 3*  
+`Math.floor(3.121)`
+
+*Az első számot teszi a második szám négyzetére*  
+`Math.pow(5,2)`
+
+*Megadja a legkissebb számot a megadott számok közül*
+`Math.min(3,2,1,5)`
+
+*Megadja a legnagyobb számot a megadott számok közül*
+`Math.max(3,2,1,5)`
+
+*Ad egy random számot 0-tól 1-ig*  
+`Math.random()`  
+*1-től 10-ig*  
+`Math.floor(Math.random() * 10) + 1`
+
+**Random számok generálásánál mindig a floor metódust használjuk mert a ceil metódusnak van egy csekély esélye, hogy 0-t adjon vissza.**
+
+
+
 
 
 
