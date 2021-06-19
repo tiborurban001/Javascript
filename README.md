@@ -20,6 +20,8 @@
 
 `alert('Hello World')` *Az alert() metódus egy felugró ablakot hív nekünk elő;*
 
+*+------------------------------------------------------------------------------+*
+
 ## **String**  
 *(String mappa)*
 
@@ -50,3 +52,9 @@
 *A split() metódus kettéválasztja a stringet egy array-be, a megadott paraméternek megfelelő karakternél*  
 `myVar.split("o")`  
 `myVar.split("")` *így pedig minden karaktert különszed*
+
+*+------------------------------------------------------------------------------+*
+## **Number**  
+*(Number mappa)*
+
+  
