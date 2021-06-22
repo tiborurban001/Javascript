@@ -128,7 +128,36 @@ pl.:
 `}`  
 *Ha a randomNumber nagyobb mint 50, akkor abban a brackets-ben lévő console.logot futtatja le, ha kisebb, akkor pedig azt.*  
 
-## **switch Statements**
+## **switch Statements**  
+
+*Syntax:*  
+
+*Megadunk egy kulcsértéket vagy kifejezést a switch argumentben majd létrehozunk case-eket amik vizsgálják igaz-e, ha egyezést talál lefut a kód, ha nem átugrik a következőre, ha semelyik nem egyezik, akkor a default fog lefutni*  
+` switch (2) { `
+`case 1: `  
+ `console.log("első eset")`  
+  `break;`
+  
+ `case 2:`  
+  `console.log("második eset, 2es érték")`
+   ` break;`
+  
+ `case 3:`  
+  `console.log("harmadik eset")`  
+   ` break;`  
+  
+ `default:`  
+  `console.log("Akkor fut le ha egyik case sem`    `felel meg az argumentben megadott key-nek")`  
+   ` break; `  
+`} `
+
+**A mappában lévő my.js fájlban egy kő-papír-olló játék található, ami körülfoglalja a switch működését**
+
+
+## **Ternary**  
+
+*Syntax:*  
+
 
 
 
