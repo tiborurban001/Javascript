@@ -157,6 +157,19 @@ pl.:
 ## **Ternary**  
 
 *Syntax:*  
+*A Ternary kifejezés igazából egy shorthand az if-es szerkezethez*  
+**Condition ? ifTrue : ifFalse**  
+
+**Láncolás**  
+`let pont = 30`  
+`let myJegy = pont > 90 ? "5"`  
+`: pont > 70 ? "4"`  
+`: pont > 50 ? "3"`  
+`: pont > 30 ? "2" : "1"`  
+
+*Ha a pont nagyobb mint 90, akkor 5-öst kapok vissza, ha nem(false) akkor tovább megy, és ellenőrzi hogy 70-nél nagyobb-e..stb..végül pedig ha 30nál nem nagyobb, akkor csakis kisébb lehet, tehát (false) és ezért 1-est kapunk vissza.*
+
+**Ismét, egy Kő-Papír-Olló gyakorló feladat a my.js-fájlban**
 
 
 
