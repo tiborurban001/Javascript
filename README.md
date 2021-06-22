@@ -171,6 +171,20 @@ pl.:
 
 **Ismét, egy Kő-Papír-Olló gyakorló feladat a my.js-fájlban**
 
+  
+# **User Input**
+
+**prompt()**  
+*A prompt egy felugró ablak felület amiben a felhasználótól kérhetünk be adatot*  
+`let myBoolean = confirm("Ok -> True \nCancel -> False")`  
+
+**confirm()**  
+*A confirm egy felugró ablak felület, amivel a felhasználó true/false értéket tud visszaadni ha az ok/cancel gombra kattint*  
+`let myName = prompt("Kérlek add meg a neved")`
+
+**A ?? kifejezéssel tudjuk ellenőrizni hogy az érték null-e pl:. `name ?? "Ha nem null : Ha igen`**
+
+# **An Easy Game**
 
 
 
