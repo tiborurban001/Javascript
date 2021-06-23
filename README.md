@@ -185,6 +185,23 @@ pl.:
 **A ?? kifejezéssel tudjuk ellenőrizni hogy az érték null-e pl:. `name ?? "Ha nem null : Ha igen`**
 
 # **An Easy Game**
+*A Coding_Challenge mappában lévő An_Easy_Game mappában*  
+*Egy kő papír olló játék az eddigi anyag felhasználásával.*
+- Megkérdezzük a felhasználót akar e játszani
+- Ha igen, akkor megkell adnia, hogy rock, paper, vagy scissors-t választ
+- Ellenőrizzük megadott e valamit a felhasználó
+- Levesszük a szóközöket és kisbetűre alakítjuk
+
+- Példányosítjuk a választását, és a játékost
+- Létrehozzuk a gép random választás generátorát
+- létrehozzuk a küzdelem menetét
+
+- Ellenőrizzük az eseteket, amikor nem igaz/null-t kapunk vissza
+
+- Kiírjuk a képernyőre az eredményt
+
+
+
 
 
 
