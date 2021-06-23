@@ -206,6 +206,31 @@ pl.:
 - Kiírjuk mekkora sebzést okozott a fegyverrel, vagy ha nem jó fegyvert használt, hogy nem találja.
 - Megkérdezzük újra akarja-e kezdeni.
 
+# **Loops**
+
+## **while**  
+*Megadunk egy állítást az argumentben és amég az nem igaz a kódblokkban lévő kód lefog futni*  
+`while (myNumber < 15){`  
+`myNumber++;`  
+`  console.log(myNumber);`  
+`}`
+## **while do**  
+*Ugyanaz szinte mint a while csak itt a do-ban lévó kódblokk minimum 1x lefut akkor is ha már igaz a while*  
+`do {`  
+ ` myNumber++;`  
+`  console.log(``${myNumber} ez a do while``);`  
+`} while (myNumber < 15);`
+
+## **for**  
+*3 elemből áll, 1.változó, 2.állítás 3.művelet
+addig adunk hozzá az index-hez amég 10-nél kisebb vagy egyenlő*  
+*A leggyakrabban használt loop*
+*akár array-eken, stringeken, indexeken is végigmegy*    
+`for (let index = 0; index <= 10; index++) {`  
+ ``console.log(`for loop ${index}`);``  
+`}`
+
+
 
 
 
