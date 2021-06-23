@@ -199,6 +199,12 @@ pl.:
 - Ellenőrizzük az eseteket, amikor nem igaz/null-t kapunk vissza
 
 - Kiírjuk a képernyőre az eredményt
+# **Fantasy Battle**
+*Egy gyors gyakorló mini feladat*
+- Megkérdezzük a felhasználót részt akar venni-e a harcban.
+- Ha igen megkérdezzük milyen fegyvert szeretne használni.
+- Kiírjuk mekkora sebzést okozott a fegyverrel, vagy ha nem jó fegyvert használt, hogy nem találja.
+- Megkérdezzük újra akarja-e kezdeni.
 
 
 
