@@ -230,6 +230,8 @@ addig adunk hozzá az index-hez amég 10-nél kisebb vagy egyenlő*
  ``console.log(`for loop ${index}`);``  
 `}`
 
+# **Functions**
+ 
 
 
 
